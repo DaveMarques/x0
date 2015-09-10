@@ -23,7 +23,12 @@ void draw() {
   text( author, 10, height-10 );
   text( w+"x"+h, width/2,height-10 );
   //
+  
   ellipse(x, y, w, h);
+  fill(255,0,0);
+  text("Jimbo", x-10, y);
+  fill(255);
+  
 }
 
 
